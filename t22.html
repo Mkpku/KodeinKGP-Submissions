@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css positions </title>
+    <style>
+        .box {
+            color: rgb(5, 5, 5);
+            background-color: aqua;
+            border: 2px solid goldenrods;
+
+            width: 150px;
+            height: 150px;
+            margin: 3px;
+            display: inline-block;
+        }
+
+        .container {
+            background-color: bisque;
+            border: 3px solid green;
+            height: 1200px;
+
+
+
+
+        }
+
+        /*position are five types :-
+1.statics 
+2.absolute
+3.relative 
+4.fixed
+5.stickly  
+*/
+
+
+        #box3 {
+            /* relative is use to move the box relative the oother boxes */
+            /* position: relative;
+    top: 34px;
+    left: 23px; */
+
+            /* absolute is also a moving the box like relative but its move the box respectively to the 1st or parents box  */
+            /* position: absolute;
+    top: 34px;
+    left: 23px;  */
+
+    /* fixed position is used to fix the any elements in our web pages. */
+            /* position: fixed;
+
+            right: 23px; */
+
+
+            position: sticky;
+
+            top: 3px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container">
+
+        <div class="box" id="box1">1.</div>
+        <div class="box" id="box2">2.</div>
+        <div class="box" id="box3">3.
+    this is box 3.
+    i want to make my own website,when i will make my own website that day is a beautiful day for me.
+        </div>
+        <div class="box" id="box4">4.</div>
+
+    </div>
+</body>
+
+</html>
